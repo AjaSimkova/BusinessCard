@@ -1,0 +1,98 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+/*
+BARVY:
+šedá na pozadí stránky:	 #b2bec3
+červená na hlavní nadpis:  #d63031
+
+tlačítko Twitter:					 #1da1f2
+tlačítko Twitter aktivní:	 #0b7bc1
+
+tlačítko Facebook:				 #3b5998
+tlačítko Facebook aktivní: #2b406e
+*/
+
+body{
+    background: #b2bec3;
+    margin: 0px;
+}
+
+img{
+    height: 150px;
+    position: relative;
+    left:990px;
+    top:220px;
+    border-radius: 50%;
+    border:solid white;
+}
+
+.WhiteWindow{
+    margin:200px;
+    margin-top: 150px;
+    margin-left: 500px;
+    background-color: white;
+    border-radius: 10px;
+    width:550px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px #5c636b;
+}
+
+h1{
+  color:#d63031;
+  font-size: 36px;
+  font-weight: 400;
+  margin: 20px;
+  position: relative;
+  top: 10px;
+  left:10px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.paragraph{
+    font-size: 18px;
+    text-align: justify;
+    margin: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+   font-size: 18px;
+   font-weight: bold;
+   color: white;
+   text-decoration:none;  
+}
+
+
+.Twitter{
+   color:aliceblue;
+   background:#1da1f2;
+   text-align: center;
+   font-size: 18px;
+   text-transform:uppercase;
+   border-radius: 5px;
+   margin: 20px;
+   padding: 10px;
+}
+
+.facebook{
+    color: white;
+    background:#3b5998;
+    text-align:center;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 35px;
+    padding: 10px;
+    margin: 20px;
+    position:relative;
+    bottom: 15px;
+    text-transform: uppercase;
+}
+
+.Mac{
+    position:relative;
+    bottom: 5px;
+}
+
+
